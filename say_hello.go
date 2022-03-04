@@ -1,9 +1,9 @@
 package gosayhellowak
 
-func SayHelloWak() string {
-	return "Hello Wak"
+func SayHelloWak(name string) string {
+	return "Hello Wak " + name
 }
 
-func SayJorokWak() string {
-	return "Pukimak kau"
+func SayJorokWak(name string) string {
+	return "Pukimak kau " + name
 }
